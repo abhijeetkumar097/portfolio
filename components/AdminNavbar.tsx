@@ -54,7 +54,7 @@ export default function AdminNavbar() {
             <Button
               variant="outline"
               size="sm"
-              className="text-primary-600 border-white hover:bg-white bg-transparent"
+              className="border-white hover:bg-gray-700 bg-transparent"
             >
               <Link href="/">
                 <Home className="mr-2 h-4 w-4" />
@@ -65,7 +65,7 @@ export default function AdminNavbar() {
               variant="outline"
               size="sm"
               onClick={handleLogout}
-              className="text-primary-600 border-white hover:bg-white bg-transparent"
+              className="border-white hover:bg-red-600 bg-transparent"
             >
               <LogOut className="mr-2 h-4 w-4" />
               Logout
