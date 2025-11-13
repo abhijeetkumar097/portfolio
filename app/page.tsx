@@ -37,7 +37,7 @@ export default function HomePage() {
         ])
 
         setFrontPage(frontPageData)
-        setProjects(projectsData.slice(0, 3)) // Show only first 3 projects
+        setProjects(projectsData.reverse().slice(0, 3)) // Show only first 3 projects
         setSkills(skillsData)
         setCertificates(certificatesData)
         setEducation(educationData)
