@@ -17,7 +17,7 @@ export default function ProjectsPage() {
       try {
         const response = await fetch("/api/projects")
         const data = await response.json()
-        setProjects(data)
+        setProjects(data.reverse())
       } catch (error) {
         console.error("Error fetching projects:", error)
       } finally {
